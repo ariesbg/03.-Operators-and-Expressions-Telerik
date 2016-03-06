@@ -1,0 +1,21 @@
+/*Problem 2. Gravitation on the Moon
+
+    The gravitational field on the Moon is approximately 17% of that on the Earth.
+    Write a program that calculates the weight of a man on the moon by a given weight on the Earth.
+*/
+
+
+using System;
+
+    class GravitationOnTheMoon
+    {
+        static void Main()
+        {
+            Console.WriteLine("Write your kg here: ");
+            int weight = int.Parse(Console.ReadLine());
+
+            int moonsWeight = (17*weight)/100;
+            Console.WriteLine("Your weight on the moon would be: {0}",moonsWeight);
+
+        }
+    }
