@@ -1,0 +1,33 @@
+/*Problem 8. Prime Number Check
+
+    Write an expression that checks if given positive integer number n (n ≤ 100) is prime (i.e. it is divisible without remainder only to itself and 1).
+    Note: You should check if the number is positive
+*/
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter positive number <= 100: ");
+        int number = int.Parse(Console.ReadLine());
+
+        if (number <= 0)
+        {
+            Console.WriteLine("The number is not positive, please enter another one!");
+
+        }
+
+        if ((number % number) == 0 & (number >= 0))
+        {
+            Console.WriteLine("The given number is prime!");
+        }
+
+        else
+        {
+            Console.WriteLine("The given number is not prime!");
+        }
+
+    }
+}
