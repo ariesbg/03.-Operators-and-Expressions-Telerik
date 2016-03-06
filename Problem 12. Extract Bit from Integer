@@ -1,0 +1,22 @@
+/*Problem 12. Extract Bit from Integer
+
+    Write an expression that extracts from given integer n the value of given bit at index p.
+*/
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter an integer number: n = ");
+        int number = int.Parse(Console.ReadLine());
+
+        Console.Write("Enter a bit index: p = ");
+        int bitIndex = int.Parse(Console.ReadLine());
+
+        int nRightP = number >> bitIndex;
+        int bit = nRightP & 1;
+        Console.WriteLine("Result = {0}",bit); 
+    }
+}
