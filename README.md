@@ -1,4 +1,5 @@
 Homework: Operators and Expressions
+
 Problem 1. Odd or Even Integers
 
     Write an expression that checks if given integer is odd or even.
@@ -10,6 +11,7 @@ n 	Odd?
 -2 	false
 -1 	true
 0 	false
+
 Problem 2. Gravitation on the Moon
 
     The gravitational field of the Moon is approximately 17% of that on the Earth.
@@ -32,6 +34,7 @@ n 	Divided by 7 and 5?
 7 	false
 35 	true
 140 	true
+
 Problem 4. Rectangles
 
     Write an expression that calculates rectangle’s perimeter and area by given width and height.
@@ -41,6 +44,7 @@ width 	height 	perimeter 	area
 3 	4 	14 	12
 2.5 	3 	11 	7.5
 5 	5 	20 	25
+
 Problem 5. Third Digit is 7?
 
     Write an expression that checks for given integer if its third digit from right-to-left is 7.
@@ -53,6 +57,7 @@ n 	Third digit 7?
 877 	false
 777877 	false
 9999799 	true
+
 Problem 6. Four-Digit Number
 
     Write a program that takes as input a four-digit number in format abcd (e.g. 2011) and performs the following:
@@ -68,6 +73,7 @@ n 	sum of digits 	reversed 	last digit in front 	second and third digits exchang
 2011 	4 	1102 	1201 	2101
 3333 	12 	3333 	3333 	3333
 9876 	30 	6789 	6987 	9786
+
 Problem 7. Point in a Circle
 
     Write an expression that checks if given point (x, y) is inside a circle K({0, 0}, 2).
@@ -84,6 +90,7 @@ x 	y 	inside
 0.2 	-0.8 	true
 0.9 	-1.93 	false
 1 	1.655 	true
+
 Problem 8. Prime Number Check
 
     Write an expression that checks if given positive integer number n (n ≤ 100) is prime (i.e. it is divisible without remainder only to itself and 1).
@@ -100,6 +107,7 @@ n 	Prime?
 51 	false
 -3 	false
 0 	false
+
 Problem 9. Trapezoids
 
     Write an expression that calculates trapezoid's area by given sides a and b and height h.
@@ -111,6 +119,7 @@ a 	b 	h 	area
 8.5 	4.3 	2.7 	17.28
 100 	200 	300 	45000
 0.222 	0.333 	0.555 	0.1540125
+
 Problem 10. Point Inside a Circle & Outside of a Rectangle
 
     Write an expression that checks for given point (x, y) if it is within the circle K({1, 1}, 1.5) and out of the rectangle R(top=1, left=-1, width=6, height=2).
@@ -127,6 +136,7 @@ x 	y 	inside K & outside of R
 2 	1.5 	yes
 1 	2.5 	yes
 -100 	-100 	no
+
 Problem 11. Bitwise: Extract Bit #3
 
     Using bitwise operators, write an expression for finding the value of the bit #3 of a given unsigned integer.
@@ -140,6 +150,7 @@ n 	binary representation 	bit #3
 15 	00000000 00001111 	1
 5343 	00010100 11011111 	1
 62241 	11110011 00100001 	0
+
 Problem 12. Extract Bit from Integer
 
     Write an expression that extracts from given integer n the value of given bit at index p.
@@ -151,6 +162,7 @@ n 	binary representation 	p 	bit @ p
 15 	00000000 00001111 	1 	1
 5343 	00010100 11011111 	7 	1
 62241 	11110011 00100001 	11 	0
+
 Problem 13. Check a Bit at Given Position
 
     Write a Boolean expression that returns if the bit at position p (counting from 0, starting from the right) in given integer number n, has value of 1.
@@ -174,6 +186,7 @@ n 	binary representation of n 	p 	v 	binary result 	result
 15 	00000000 00001111 	1 	1 	00000000 00001111 	15
 5343 	00010100 11011111 	7 	0 	00010100 01011111 	5215
 62241 	11110011 00100001 	11 	0 	11110011 00100001 	62241
+
 Problem 15.* Bits Exchange
 
     Write a program that exchanges bits 3, 4 and 5 with bits 24, 25 and 26 of given 32-bit unsigned integer.
@@ -185,6 +198,7 @@ n 	binary representation of n 	binary result 	result
 4294901775 	11111111 11111111 00000000 00001111 	11111001 11111111 00000000 00111111 	4194238527
 5351 	00000000 00000000 00010100 11100111 	00000100 00000000 00010100 11000111 	67114183
 2369124121 	10001101 00110101 11110111 00011001 	10001011 00110101 11110111 00101001 	2335569705
+
 Problem 16.** Bit Exchange (Advanced)
 
     Write a program that exchanges bits {p, p+1, …, p+k-1} with bits {q, q+1, …, q+k-1} of a given 32-bit unsigned integer.
